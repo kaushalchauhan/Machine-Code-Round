@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(18, 17, 17);
+  color: rgb(244, 238, 238);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.star-container {
+  font-size: 2.5rem;
+}
+.star {
+  padding: 0.5rem;
+  color: gray;
+  cursor: pointer;
+}
+.star-filled {
+  color: yellow;
+}
